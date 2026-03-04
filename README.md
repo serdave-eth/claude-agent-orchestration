@@ -181,8 +181,6 @@ The lead agent will:
 3. Route feedback back to the Planner until the Critic approves
 4. Present the final approved plan to you for sign-off
 
-![Example output](example_output.png)
-
 The draft plan is written to `.claude/plan-draft.md` and survives across rounds since it lives on disk, not in any agent's context.
 
 ---
